@@ -1,0 +1,13 @@
+name: pressure_predict
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - cudatoolkit=11.2
+  - cudnn=8.1.0
+  - tensorflow=2.10.0
+  - scipy
+  - numpy
+  - matplotlib
+  - jupyterlab
