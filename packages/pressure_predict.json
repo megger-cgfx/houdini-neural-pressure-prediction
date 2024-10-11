@@ -1,0 +1,19 @@
+{
+  "name": "pressure_predict",
+  "version": "1.0",
+  "description": "Pressure Prediction Env Requirements (Python packages and pyrosolver HDA)",
+  "houdini": {
+    "env": [
+      {
+        "var": "HOUDINI_PATH",
+        "value": "C:\Work\pressure_predict",
+        "method": "prepend"
+      },
+      {
+        "var": "PYTHONPATH",
+        "value": "C:\Users\Martin Egger\.conda\envs\pressure_predict\Lib\site-packages",
+        "method": "append"
+      }
+    ]
+  }
+}
