@@ -36,10 +36,10 @@ In the Houdini file, set the custom Pyro Solver to **"Data Generation Mode"** an
 ## Training
 * Load the conda environment, navigate to the project root and launch jupyter lab (automated in `environment/pressure_predict_jupyter_launcher.bat`)
 * Open jupyter lab in browser (manually if not automatically opening default browser, eg. on WSL) and open the jupyter notebook
-* Run all cells
+* Run all cells and see model being trained at the end
+* Exporting the model works through the "model view and export" notebook, where the code is cloned and training bypassed. Some functionality is added for proper ONNX export.
 
 ## Evaluation
 * Change the solver to **"Evaluation Mode"**
-* Locate exported .h4 or .onnx file under `models/` and set the path on the solver
-* ...
-* Profit!
+* Locate exported .onnx file under `models/` and set the path on the solver
+* Evaluation currently exhibits problematic behaviour to be addressed with reworking architecture and approach, but evaluation method can stay consistent.
