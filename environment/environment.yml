@@ -8,8 +8,8 @@ dependencies:
   - pip
   - pip:
     - tensorflow_gpu==2.10
-    - scipy
     - numpy
+    - scipy
     - matplotlib
     - jupyterlab
     - tf2onnx
