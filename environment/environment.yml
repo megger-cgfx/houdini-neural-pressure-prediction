@@ -1,14 +1,15 @@
-name: pressure_predict
+name: pressure_predict_gpu
 channels:
   - conda-forge
 dependencies:
   - python=3.9
-  - pip
   - cudatoolkit=11.2
   - cudnn=8.1.0
-  - tensorflow=2.10.0
-  - scipy
-  - numpy
-  - matplotlib
-  - jupyterlab
-  - tf2onnx
+  - pip
+  - pip:
+    - tensorflow_gpu==2.10
+    - scipy
+    - numpy
+    - matplotlib
+    - jupyterlab
+    - tf2onnx
