@@ -9,7 +9,7 @@ A very early state of implementation of first iteration: https://youtu.be/wc9lWM
 [![Pressure Solve Comparison Proof Of Concept](./media/output_comparison.png)](https://youtu.be/wc9lWMOSP_4)
 
 The current state of inference with dynamic Generator sizing:
-[!Inference Dynamic Generator](./media/inference_dynamic.png)
+![Inference Dynamic Generator](./media/inference_dynamic.png)
 
 
 ## Requirements (Windows)
