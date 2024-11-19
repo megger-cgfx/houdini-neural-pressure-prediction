@@ -5,6 +5,11 @@ This is a research project started at Untold Studios in London back in 2022 wher
 
 The main development which made it reasonable was the addition of the H20 **ONNX SOP** which allows the evaluation of a model within Houdini without exporting the data for each frame. Previously, this was a bottleneck and would have required a custom C++ plugin to handle I/O of the data not through python or be slowed down by disk writing speeds.
 
+A very early state of implementation of first iteration: https://youtu.be/wc9lWMOSP_4
+[![Pressure Solve Comparison Proof Of Concept](./media/output_comparison.png)](https://youtu.be/wc9lWMOSP_4)
+
+The current state of inference with dynamic Generator sizing:
+[!Inference Dynamic Generator](./media/inference_dynamic.png)
 
 
 ## Requirements (Windows)
