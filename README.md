@@ -8,6 +8,9 @@ The main development which made it reasonable was the addition of the H20 **ONNX
 A very early state of implementation of first iteration: https://youtu.be/wc9lWMOSP_4
 [![Pressure Solve Comparison Proof Of Concept](./media/output_comparison.png)](https://youtu.be/wc9lWMOSP_4)
 
+Implementation in the solver:
+![Solver Implementation](./media/solver_implementation.png)
+
 The current state of inference with dynamic Generator sizing:
 ![Inference Dynamic Generator](./media/inference_dynamic.png)
 
